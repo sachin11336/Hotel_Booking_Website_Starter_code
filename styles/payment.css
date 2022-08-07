@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.city{
+    height: 500px;
+    width: 500px;
+}
+.socialmedia{
+    height: 20px;
+    width: 22px;
+}
+#pay_img{
+    width: 50%;
+    height: 20%;
+    background-color: rgb(132, 136, 139);
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+#user_details{
+    margin: 2%;
+}
+#amount{
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 1% ;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}

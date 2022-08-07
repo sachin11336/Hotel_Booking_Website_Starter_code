@@ -5,75 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <style>
-        html{
-            height: 100%;
-            width: 100%;
-            margin: 0;
-        }
-        body{
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            background-color: #e0e0e0;
-        }
-        #logo{
-            height: 60px;
-            width: 60px;
-        }
-         /* .city{
-            height: 150px;
-            width: 150px;
-            margin-left: 15% ;
-            margin-right: 15%;
-            padding: 4%;
-            border-radius: 25%;
-        } */
-        #firstCity{
-            height: 150px;
-            width: 150px;
-            margin-left: 12%;
-            padding: 4%;
-            border-radius: 25%;
-        }
-        #secondCity{
-            height: 150px;
-            width: 150px;
-            padding: 4%;
-            border-radius: 25%;
-        }
-        #thirdCity{
-            height: 150px;
-            width: 150px;
-            padding: 4%;
-            border-radius: 25%;
-        }
-        #lastCity{
-            height: 150px;
-            width: 150px;
-            margin-right: 12%;
-            padding: 4%;
-            border-radius: 25%;
-        }
-        .socialsite{
-            height: 20px;
-            width: 22px;
-        }
-        header{
-            background-color: rosybrown;
-        }
-        footer{
-            background-color: rosybrown;
-        }
-        #search_bar{
-            background: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg') no-repeat center;
-            background-size: cover;
-            background-position: center;
-            height: 380px;
-            width: 100%;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
 </head>
 <body>
     <div>
@@ -83,7 +17,7 @@
         </header>
         <section>
             <form action="" id="search_bar">
-                <input type="text" name="search_bar"  placeholder="City">
+                <input type="text" name="search_bar"  placeholder="City" id="textbar">
                 </form>
     
             <a href="list.html"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg
@@ -98,14 +32,16 @@
             <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="city" id="lastCity" alt="kolkata-calcutta" height="300px" width="300px">
             <br>
     
-            <a href="index.html">View more >></a>
+            <a href="index.html" id="viewmore">View more >></a>
         </section>
         <footer>
+            <a href="contact.html" id="contact">Contact Us</a> 
             <a href="https://www.facebook.com" target="_blank"><img src="/assests/images/facebook.png" class="socialsite" alt="facebook" height="20px" width="22px"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="/assests/images/instagram.png" class="socialsite" alt="instagram" height="20px" width="22px"></a>
             <a href="https://www.twitter.com" target="_blank"><img src="/assests/images/twitter.png" class="socialsite" alt="twitter" height="20px" width="22px"></a>
             <br>
-            &#169; 2020 ROOM SEARCH PVT. LTD.
+           
+            <p style="display: inline;">&#169; 2020 ROOM SEARCH PVT. LTD.</p>
         </footer>
     </div>
 </body>

@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+header{
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed; 
+
+}
+footer{
+    bottom: 0;
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed; 
+    padding: 15px 0;
+}
+header{
+    top: 0;
+}
+.city{
+    height: 500px;
+    width: 500px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.socialmedia{
+    height: 20px;
+    width: 22px;
+}
+#form{
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#detailsSection{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+section{
+    margin-top: 2%;
+
+}

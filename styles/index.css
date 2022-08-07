@@ -1,0 +1,131 @@
+body div{
+    overflow: auto;
+    display: block;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+}
+section #firstCity{
+    height: 150px;
+    width: 150px;
+    margin-left: 12%;
+    padding: 3.5%;
+
+    border-radius: 25%;
+}
+section #secondCity{
+    height: 150px;
+    width: 150px;
+    padding: 3.5%;
+    border-radius: 25%;
+}
+section #thirdCity{
+    height: 150px;
+    width: 150px;
+    padding: 3.5%;
+
+    border-radius: 25%;
+}
+section #lastCity{
+    height: 150px;
+    width: 150px;
+    margin-right: 12%;
+    padding: 3.5%;
+
+    border-radius: 25%;
+}
+.socialmedia{
+    height: 20px;
+    width: 22px;
+}
+header{
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed; 
+    height: 68px;
+    top: 0;
+    z-index: 10;
+
+}
+section{
+
+    width: 100%;
+    margin-top: 68px;
+    top:70px; 
+    margin-bottom:75px;
+    left:0px;
+    right:0px;
+    overflow:auto;
+
+
+}
+footer{
+    bottom: 0;
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed; 
+    padding: 15px 0;
+    height: 35px;
+}
+
+#search_bar{
+    background: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+header a{
+    position: relative;
+    left: 91%;
+    text-align: center;
+    vertical-align: middle;
+    top: -25px;
+    text-decoration: none;
+    color: black;
+}
+footer .socialmedia{
+    position: relative;
+    left: 88%;
+    top: 10px;
+
+}
+footer p{
+    position: relative;
+    left:45%;
+}
+footer #contact{
+    position: relative;
+    vertical-align: middle;
+    top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+#textbar{
+    position: relative;
+    margin-left: 40% ;
+    top: 45%;
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+
+
+}
+#viewmore{
+    position: relative;
+    margin-left: 700px ;
+    text-decoration: none;
+    color: black;
+    top: -20px;
+}
+.city{
+    margin-left: 35px;
+}  

@@ -1,0 +1,69 @@
+body div{
+    overflow: auto;
+    display: block;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+}
+.socialmedia{
+    height: 20px;
+    width: 22px;
+}
+header{
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed; 
+    height: 68px;
+    top: 0;
+    z-index: 10;
+
+}
+footer{
+    bottom: 0;
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed; 
+    padding: 15px 0;
+    height: 35px;
+}
+header a{
+    position: relative;
+    left: 91%;
+    text-align: center;
+    vertical-align: middle;
+    top: -25px;
+    text-decoration: none;
+    color: black;
+}
+footer .socialmedia{
+    position: relative;
+    left: 88%;
+    top: 10px;
+
+}
+footer p{
+    position: relative;
+    left:45%;
+}
+footer #contact{
+    position: relative;
+    vertical-align: middle;
+    top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* above all are common */
+.city{
+    height: 150px;
+    width: 150px;
+
+}
+.img{
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+} 
