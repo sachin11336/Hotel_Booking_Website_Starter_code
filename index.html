@@ -6,21 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
-        html,body{
+        html{
             height: 100%;
             width: 100%;
+            margin: 0;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background-color: #e0e0e0;
         }
         #logo{
             height: 60px;
             width: 60px;
         }
-        .place{
+         /* .city{
             height: 150px;
             width: 150px;
+            margin-left: 15% ;
+            margin-right: 15%;
+            padding: 4%;
+            border-radius: 25%;
+        } */
+        #firstCity{
+            height: 150px;
+            width: 150px;
+            margin-left: 12%;
+            padding: 4%;
+            border-radius: 25%;
+        }
+        #secondCity{
+            height: 150px;
+            width: 150px;
+            padding: 4%;
+            border-radius: 25%;
+        }
+        #thirdCity{
+            height: 150px;
+            width: 150px;
+            padding: 4%;
+            border-radius: 25%;
+        }
+        #lastCity{
+            height: 150px;
+            width: 150px;
+            margin-right: 12%;
+            padding: 4%;
+            border-radius: 25%;
         }
         .socialsite{
             height: 20px;
             width: 22px;
+        }
+        header{
+            background-color: rosybrown;
+        }
+        footer{
+            background-color: rosybrown;
+        }
+        #search_bar{
+            background: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg') no-repeat center;
+            background-size: cover;
+            background-position: center;
+            height: 380px;
+            width: 100%;
         }
 
     </style>
@@ -32,20 +82,20 @@
             <a href="login.html">Login</a>
         </header>
         <section>
-            <form action="">
-                <input type="text" name="search_bar" id="" placeholder="City">
-            </form>
+            <form action="" id="search_bar">
+                <input type="text" name="search_bar"  placeholder="City">
+                </form>
     
             <a href="list.html"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg
-            " class="place"  alt="Delhi" height="300px" width="300px" ></a>
+             "class="city" id="firstCity"  alt="Delhi" height="300px" width="300px" ></a>
     
     
             <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg
-            "class="place" alt="Goa" height="300px" width="300px">
+            "class="city" id="secondCity"  alt="Goa" height="300px" width="300px">
     
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="place" alt="Hyderabad" height="300px" width="300px">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="city" id="thirdCity" alt="Hyderabad" height="300px" width="300px">
     
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="place"  alt="kolkata-calcutta" height="300px" width="300px">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="city" id="lastCity" alt="kolkata-calcutta" height="300px" width="300px">
             <br>
     
             <a href="index.html">View more >></a>

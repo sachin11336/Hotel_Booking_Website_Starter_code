@@ -7,25 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
     <style>
-        html,
-        body {
+        html {
             height: 100%;
             width: 100%;
+            margin: 0;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background-color: #e0e0e0;
         }
 
         #logo {
             height: 60px;
             width: 60px;
         }
+        header{
+            background-color: rosybrown;
+        }
+        footer{
+            background-color: rosybrown;
+        }
 
         .place {
             height: 150px;
             width: 150px;
+            margin-top: 2%;
+            margin-left: 4%;
+            margin-right: 4%;
         }
 
         .socialsite {
             height: 20px;
             width: 22px;
+        }
+        #pay_img{
+            width: 50%;
+            height: 20%;
+            background-color: rgb(132, 136, 139);
+            margin-top: 2%;
+            margin-right: 25%;
+            margin-bottom: 2%;
+            margin-left: 25%;
+        }
+        #user_details{
+            margin: 2%;
+        }
+        #amount{
+            margin: 2%;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding-top: 1% ;
+            padding-bottom: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
         }
     </style>
 </head>
@@ -38,19 +74,25 @@
             <a href="login.html" target="_blank">Login</a>
         </header>
         <section>
+            <div id="pay_img">
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="place"
                 alt="Radisson blu hotel">
             <h3>Radisson Blu Hotel</h3>
 
             #38 of 1,289 hotels in New Delhi <br><br>
             National Highway 8,New Delhi 110017 India <br><br>
+            </div>
 
-            <strong>Name:</strong> John Doe <br><br>
+
+           <div id="user_details">  <strong>Name:</strong> John Doe <br><br>
             <strong>Number of Adults:</strong> 2 <br><br>
             <strong>Check-in Date:</strong> 06/06/2020 <br><br>
             <strong>Check-out Date:</strong> 08/06/2020 <br><br>
+        </div> 
+        <div id="amount">
             <strong>Tariff Breakdown:</strong> Rs.1000 x 2 Adults x 5 Nights <br><br>
             <strong>Total Amount:</strong> Rs.10000 <br><br>
+            </div>
             <a href="payment.html">Pay Now</a>
 
         </section>
