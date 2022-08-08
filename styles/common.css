@@ -2,22 +2,78 @@ html{
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+  }
 body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-color: #e0e0e0;
-    font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    /* padding-bottom: 58px; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #e0e0e0;
+  font-family: Ubuntu, sans-serif;
+}
+header {
+  background-color: rosybrown;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.logo{
+  height: 60px;
+  width: 60px;
+}
+footer {
+  background-color: rosybrown;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: auto;
+  top:auto;
+  left:0;
+  display: flex;
+  justify-content:space-between;
+  vertical-align: middle;
+  padding: 1%;
+}
+
+.social-icons {
+  height :20px;
+  width : 22px;
+  /* margin-top:15px; */
+  padding: 2px;
+}
+
+.login {
+  position: absolute;
+  /* top: 15px; */
+  right: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 1%;
+  margin-right: 10px;
+}
+#contactus{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  vertical-align: middle;
+}
+main{
+  width: 100vw;
+  margin:0 auto;
+  padding: 50px 20px;
+}
+#copyright{
+  font-size: 10px;
 } 

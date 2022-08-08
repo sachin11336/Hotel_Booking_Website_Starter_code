@@ -1,15 +1,7 @@
-body div{
-    overflow: auto;
-    display: block;
-}
-#logo{
-    height: 60px;
-    width: 60px;
-    padding: 4px;
-}
-.socialmedia{
-    height: 20px;
-    width: 22px;
+.view {
+    text-decoration: none;
+    padding-left: 42%;
+    padding-right: 2%;
 }
 header{
     background-color: rosybrown;
@@ -37,33 +29,37 @@ header a{
     text-decoration: none;
     color: black;
 }
-footer .socialmedia{
-    position: relative;
-    left: 88%;
-    top: 10px;
+.img-info {
+    flex: 1 1 auto;
+    margin: 5%;
+    justify-content: center;
+    width:300px;
+}
+.contentDiv {
+
+    margin: 3%;
+    background-color:lightgrey;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex: 30%;
 
 }
-footer p{
-    position: relative;
-    left:45%;
+h3{
+    padding-bottom: 4%;
+} 
+#linkStyle{
+    font-weight: bold;
+    padding-top: 5px;
 }
-footer #contact{
-    position: relative;
-    vertical-align: middle;
-    top: 5px;
-    margin-left: 10px;
+*{
     text-decoration: none;
     color: black;
 }
-
-/* above all are common */
-.city{
-    height: 150px;
-    width: 150px;
-
-}
-.img{
-    margin: 2%;
-    background-color: rgb(132, 136, 139);
-    width: 40%;
-} 
+.content{
+    padding:4%;
+    }
+    .links{
+        display:flex;
+        margin:2%;
+      }

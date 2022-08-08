@@ -4,57 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/list.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"  rel="stylesheet" />
     <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/list.css">
     <title>List</title>
     
        
 </head>
 <body>
-    <div>
+   
         <header>
-            <img src="/assests/images/logo.png" id="logo" alt="logo" height="100px" width="150px">
-            <a href="login.html">Login</a>
+            <a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a>
+            <a href = "login.html" target="_blank" class="login">Login</a>
         </header>
-         <section>
-             <ul>
-                <a href="#list-view"><li><u>List View</u></li></a>
-                <a href="#map-view"><li><u>Map View</u></li></a>
-             </ul>
-             <a href="detail.html">
-                <div class="img">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="city" id="list-view" alt="Radisson Blu Hotel">
-                     <h3><u>Radisson Blu Hotel</u></h3>
-                    <u>5 star</u> <br><br>
-                     <u>New Delhi</u> <br><br>
-                    </div>
-                </a>
-                <div class="img">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" class="city" alt="Lalit hotel">
-                    <h3>The Lalit new-delhi</h3>
-                    4.5 star <br><br>
-                    New Delhi <br>
+        <div class="content">
+            <div class="links">
+                <span class="view"><a href = "#listView" id="linkStyle"> List View</a></span>
+                <span><a href = "#mapView" id="linkStyle" > Map View</a></span>
+            </div>
+        <div id = "listView" class="cards">
+                <div class="contentDiv">
+                          <a href = "detail.html"><img class="hotelImage" src = "https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt = "Raddison Blue Hotel"></a>
+                          <div class="img-info">
+                          <h3>Radisson Blu Hotel</h3>
+                          <p><a href = "detail.html" >5 Star</a></p>
+                          <p><a href = "detail.html" >New Delhi</a></p>
+                          </div>               
                 </div>
-     
-                <div class="img"><img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" class="city" alt="Taj Palace">
-                    <h3>Taj Palace</h3>
-                    4 star <br><br>
-                    New Delhi <br>
+                <div class="contentDiv">
+                          <img class="hotelImage" src = "https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt ="The Lalit New Delhi">
+                          <div class="img-info">
+                          <h3>The Lalit New Delhi</h3>
+                          <p >4.5 Star</p>
+                          <p >New Delhi</p>
+                          </div>
                 </div>
-             <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" id="map-view"  alt="Map"> <br>
-             MAP VIEW
-             <br>
-             <br>
-     
-         </section>
-         <footer>
-            <a href="contact.html" id="contact">Contact Us</a>
-            <a href="https://www.facebook.com" target="_blank"><img src="/assests/images/facebook.png" class="socialsite" alt="facebook" height="20px" width="22px"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="/assests/images/instagram.png" class="socialsite" alt="instagram" height="20px" width="22px"></a>
-            <a href="https://www.twitter.com" target="_blank"><img src="/assests/images/twitter.png" class="socialsite" alt="twitter" height="20px" width="22px"></a>             <br>
-             &#169; 2020 ROOM SEARCH PVT. LTD.
-         </footer>
-    </div>
-</body>
+                <div class="contentDiv">
+                          <img class="hotelImage" src = "https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt = "Taj Palace">
+                          <div class="img-info"><p>
+                          <h3>Taj Palace</h3></p>
+                          <p >4.0 Star</p>
+                          <p >New Delhi</p>
+                          </div>
+                </div>
+                <div class="contentDiv" style="visibility: hidden;">
+                </div>
+                <div id = "mapView" class="map-view">
+                          <img src ="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt = "Map Image">
+                          <p>MAP VIEW</p>
+                </div>  
+            </div>  
+                </div>
+                <footer>
+                    <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+                    <span id="copyright"> © 2020 ROOM SEARCH PVT. LTD</span>
+                    <span>
+                        <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
+                        <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
+                        <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
+                    </span>
+                </footer>
+                </body>
 </html>
