@@ -1,55 +1,96 @@
-.hotelImage {
-    height: 250px;
-    width: 250px;
-    align-self: flex-start;
+#article {
+    margin-bottom: 50px;
+    /* height: 900px; */
+    width: 100%;
 }
-.map-view{
-    display: none;
+#article ul {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
 }
-.cards {
+#article ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#article ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#list-view .hotels {
     display: flex;
     flex-wrap: wrap;
 }
-.img-info {
-    flex: 1 1 auto;
-    margin: 5%;
-    justify-content: center;
-    width:300px;
+#list-view .hotels .hotel {
+    margin-right: 60px;
+    margin-left: 80px;
 }
-.contentDiv {
-    display: flex;
-    margin: 3%;
-    background-color:lightgrey;
-    width: 600px;
-    height: auto;
-    display: flex;
-    flex: 30%;
+#list-view .hotels .hotel:hover {
+    margin-right: 60px;
+    margin-left: 80px;
+    background-color: rosybrown;
 
 }
-p>a{
-    color: black;
-}
-.contentDiv:hover{
-    background-color: rosybrown;
-}
-h3{
-    padding-bottom: 4%;
-} 
-#linkStyle{
-    font-weight: bold;
-    padding-top: 5px;
-}
-*{
+#list-view .hotels .hotel a {
     text-decoration: none;
     color: black;
 }
-.content{
-    padding:4%;
+#list-view img {
+    width: 250px;
+    height: 200px;
+}
+#list-view .hotel {
+    margin: 2%;
+    background-color: lightgray;
+    width: 600px;
+    display: flex;
+}
+#list-view .hotel .text {
+    margin-left: 3%;
+    width: 100%;
+}
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+    #list-view .hotel {
+        margin: 2%;
+        background-color: lightgray;
+        width: 1500px;
+        display: flex;
     }
-    #links{
-       
-        margin:2%;
-      }
-      #pills-tab {
-        justify-content: center;
+    #list-view img {
+        width: 200px;
+        height: 150px;
+    }
+    #article ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-device-width: 576px) {
+    #article ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .hotel {
+        display: flex;
+        flex-direction: column;
+    }
+    #list-view .hotel {
+        margin: 2%;
+        background-color: lightgray;
+        width: 450px;
+        display: flex;
+    }
+    #list-view img {
+        width: 450px;
+        height: 400px;
+    }
+    }
+    .checked {
+        color: orange;
     }

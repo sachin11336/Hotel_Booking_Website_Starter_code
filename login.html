@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/common.css">
-    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
 </head>
 <body>
     <div>
-        <form action="index.html">
+        <form method="GET" action="index.html" autocomplete="off">
             <label for="username">Username:</label>
-            <input type="text" name="username" id="" placeholder="Enter Username" required><br>
+            <input type="text" name="username" id="username" placeholder="Enter Username" required/>
+            <br />
             <label for="password">Password:</label>
-            <input type="password" name="password" id="" placeholder="Enter Password" required><br>
-            <button>Login</button>
-        </form>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required/>
+            <br />
+            <button id="login">Login</button>
+            </form>
     </div>
+  
 </body>
 </html>
