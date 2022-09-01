@@ -5,6 +5,8 @@
 }
 #article .anchor {
     text-align: center;
+    margin: -5%;
+    padding: 67px;
 }
 section #firstCity{
     height: 150px;
@@ -19,6 +21,9 @@ section #firstCity{
     color: black;
     /* margin-bottom: 50px; */
 }
+a{
+    text-decoration: none;
+ }
 #article .search form input {
     width: 400px;
     border: 1px solid white;
@@ -34,13 +39,15 @@ section #firstCity{
 }
     #article .search {
         background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-        height: 400px;
+        height: 600px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 170px;
+
 
 }
 #article .cards {
@@ -62,7 +69,7 @@ section #firstCity{
     width: 150px;
 }
 #article .cards .card img {
-    border-radius: 25px;
+    border-radius: 30px;
     /* width: 150px;
     height: 150px; */
   }
@@ -71,10 +78,10 @@ section #firstCity{
   }
   .middle {
     position: absolute;
-    top: 50%;
-    left: 45px;
+    top: 44%;
+    left: 53px;
     opacity: -1;
-    margin: auto;
+    
 
 }
 .middle .text {
@@ -87,6 +94,7 @@ section #firstCity{
   #article .cards .card:hover .image {
     /* opacity: 0.5; */
     filter: brightness(40%);
+    cursor: pointer;
   }
   @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
     /* STYLES HERE */
@@ -108,7 +116,7 @@ section #firstCity{
         /* width: 600px; */
     }
     #article .cards .card {
-        position: relative;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -117,14 +125,7 @@ section #firstCity{
   }
 
   @media screen and (max-device-width: 576px) {
-    #article .cards .card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 150px;
-        margin-bottom: 20px;
-    }
+   
     #article {
         height: 1280px;
         display: flex;
@@ -152,5 +153,16 @@ section #firstCity{
         height: 450px;
         /* width: 600px; */
 
-    }
-}  
+    } 
+article .cards .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 20px;
+}
+  }
+#none{
+display: none;
+}

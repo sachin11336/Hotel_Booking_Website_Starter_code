@@ -78,32 +78,7 @@
   color: orange;
 }
 
-@media screen and (max-device-width: 576px) {
-  #article {
-      height: 1250px;
-}
-#article .img-part {
-  margin-top: 30px;
-}
-#article img {
-  height: 200px;
-  width: 100%;
-  z-index: -1;
-}
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-  
-#article .desc-part {
-  margin-top: 50px;
-  width: 400px;
-}
-.hotelImage{
-  height:350px;
-}
+
 
 @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
   #article {
@@ -138,4 +113,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-device-width: 576px){
+  article{
+      height: 1250px;
+  }
+  article .img-part{
+      margin-top: 30px;
+  }
+  article img{
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+}
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+article .desc-part{
+  margin-top: 50px;
+  width: 400px;
+}
+article .description{
+  margin-top: 300px;
 }
